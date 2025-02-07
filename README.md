@@ -60,7 +60,7 @@ cd number-classification-api
 
 2. Create a virtual environment and activate it:
 ```bash
-python -m venv venv
+python3 -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 
@@ -71,7 +71,7 @@ pip install fastapi uvicorn
 
 4. Run the application:
 ```bash
-uvicorn main:app --reload
+uvicorn main:app --host 0.0.0.0 --port 8000
 ```
 
 The API will be available at `http://localhost:8000`
