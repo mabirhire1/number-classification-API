@@ -2,13 +2,6 @@
 
 A FastAPI-based API that analyzes numbers and returns their mathematical properties along with fun facts.
 
-## Project Structure
-
-number-classification-api/
-├── main.py
-├── README.md
-└── requirements.txt
-
 ## Features
 
 - Determines if a number is prime
@@ -18,7 +11,6 @@ number-classification-api/
 - Provides various number properties (odd/even, perfect square, etc.)
 - Generates fun facts about the number
 - CORS enabled for cross-origin requests
-- Error handling for invalid inputs
 
 ## API Specification
 
